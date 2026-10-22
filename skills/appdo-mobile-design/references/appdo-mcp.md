@@ -59,4 +59,4 @@ Capture order is available sequence, not proof of a complete journey. Theme vari
 
 All 19 current tools are read-only. Boards are saved-library category groups, not editable custom boards. Template responses expose public details/demo/gallery, not purchased source archives. The MCP cannot install source code or grant a license. Use a local checkout or user-authorized source package for implementation.
 
-Do not import Appllama's paid-credit model, media expiry claims or tools into Appdo instructions. Appdo v1.1 reports `billing: "not-metered"`; this is a present capability, not a promise about future pricing.
+Do not assume external paid-credit models, media expiry claims or third-party tools not listed in `get_capabilities`. Appdo v1.1 reports `billing: "not-metered"`; this is a present capability, not a promise about future pricing.
