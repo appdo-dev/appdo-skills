@@ -1,0 +1,4 @@
+interface:
+  display_name: "Appdo Mobile Design"
+  short_description: "Design and verify mobile flows with Appdo"
+  default_prompt: "Use $appdo-mobile-design to improve one mobile flow in my Appdo template and verify its behavior and visual states."
