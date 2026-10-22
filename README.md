@@ -10,7 +10,7 @@ Design, build, and verify mobile flows with Appdo.
 | --- | --- |
 | [appdo-mobile-design](skills/appdo-mobile-design/SKILL.md) | Research mobile patterns, implement screens in Appdo templates, and verify navigation, accessibility and visual states. Includes Expo / React Native guidance and a Learning Language AI example. |
 
-The skill works with local code and supplied references. Appdo MCP adds optional library research; an Appllama subscription is not required.
+The skill works standalone with local code and supplied references; Appdo MCP adds optional library research.
 
 ## Install
 
@@ -89,8 +89,6 @@ $appdo-mobile-design Cải thiện luồng speaking practice của Learning Lang
 
 Skill hướng dẫn giữ cấu trúc template, dùng đúng công cụ MCP, hoàn thiện hành vi và phân biệt kết quả đã kiểm tra với phần chưa xác minh.
 
-## Credits and license
+## License
 
-Inspired by the organization and research-to-implementation approach of [Appllama Skills](https://github.com/Appllama/appllama-skills). Instructions were written for Appdo; no upstream library screenshots, branding assets or source code are bundled. See [sources and adaptation](skills/appdo-mobile-design/references/sources.md).
-
-This repository's skill instructions and documentation are available under the [MIT license](LICENSE). This license does not grant rights to third-party trademarks, library media or separately licensed Appdo templates. This project is not affiliated with Appllama.
+Skill instructions and documentation in this repository are authored for Appdo (see [architecture and contract notes](skills/appdo-mobile-design/references/sources.md)) and released under the [MIT license](LICENSE). This license does not grant rights to third-party trademarks, library media or separately licensed Appdo templates.
