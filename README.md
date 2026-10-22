@@ -17,19 +17,19 @@ The skill works with local code and supplied references. Appdo MCP adds optional
 From your project directory:
 
 ```sh
-npx skills@latest add danhjunior/appdo-skills --skill appdo-mobile-design
+npx skills@latest add appdo-dev/appdo-skills --skill appdo-mobile-design
 ```
 
 Choose a supported agent when prompted. To install specifically for Codex:
 
 ```sh
-npx skills@latest add danhjunior/appdo-skills --skill appdo-mobile-design -a codex
+npx skills@latest add appdo-dev/appdo-skills --skill appdo-mobile-design -a codex
 ```
 
 To install user-wide, add `-g`. To inspect available skills before installing:
 
 ```sh
-npx skills@latest add danhjunior/appdo-skills --list
+npx skills@latest add appdo-dev/appdo-skills --list
 ```
 
 For a manual installation, copy the entire `skills/appdo-mobile-design` directory into your agent's skills directory. Codex normally uses `$CODEX_HOME/skills` or `~/.codex/skills`. Keep the `references/` and `agents/` folders together. Compare an existing installation before replacing it. Open a new session if the agent has not refreshed its skill list.
