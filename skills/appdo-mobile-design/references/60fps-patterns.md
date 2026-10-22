@@ -1,12 +1,12 @@
 # 60fps Golden Interactions & Psychology Reference for Expo Templates
 
-Derived from the curated `60fps.design` interaction library (2,094 shots, 67 storyboards, and 20 compile-checked snippets), translated 1:1 into **Expo / React Native (`react-native-reanimated` v4)** primitives in `@/theme/motion` and `@/components/*`.
+Derived from the Appdo 60fps interaction library (2,094 shots, 67 storyboards, and 20 compile-checked snippets), translated 1:1 into **Expo / React Native (`react-native-reanimated` v4)** primitives in `@/theme/motion` and `@/components/*`.
 
 ## 1. Centralized Motion Token System (`src/theme/motion.ts`)
 
 Every Appdo template inherits four named spring roles (`ReduceMotion.System` aware) so the entire application moves with one consistent voice:
 
-| Token | Reanimated Config | Origin (`60fps.design` Reference) | Use Case |
+| Token | Reanimated Config | Reference Archetype | Use Case |
 | :--- | :--- | :--- | :--- |
 | `motion.springs.feedback` | `{ duration: 320, dampingRatio: 0.78 }` | `#008` Line Graph Morph (*Family*) | Immediate button release (`SpringPressable`), filter chip selection, step checkboxes |
 | `motion.springs.change` | `{ duration: 360, dampingRatio: 0.90 }` | `#012` / `#014` / `#017` (*Monogram*, *Captions*, *Family*) | Accordion expand/collapse, sheet resizing, progress bar fill, number flip |
